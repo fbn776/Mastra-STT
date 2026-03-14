@@ -1,30 +1,14 @@
-# Expressjs + MongoDB - Basic Setup
+# Mastra Speech To Text Demo
 
-This repository contains a basic setup for a web application using Express.js as the server framework and MongoDB as the
-database. It provides a simple structure to get started with building RESTful APIs.
+## Setup
 
-It includes the following features:
-- User authentication using JWT
-- User types and role management
-- Basic CRUD operations for user management
-- Error handling and validation
-- Environment configuration
-- Logging
-- Developer Tools
+1. Clone the repository
+2. Go to `app` directory
+3. Install dependencies using `npm install`
+4. Create `.env` file in the `app` directory and add your Mastra API key:
 
-## Setup Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone 
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd <repo>
-   cd app
-    ```
-3. Install the dependencies:
-   ```bash
-   npm install
-    ```
-4. Create a `.env` file in the root directory and add env variables as shown in `.env.sample` file.:
+```
+OPENAI_API_KEY=<key>
+```
+5. Start the application using `npm run dev`
+6. Open your browser and navigate to `http://localhost:<port>/dev/stt` to access the demo
